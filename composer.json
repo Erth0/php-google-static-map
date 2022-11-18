@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "erth0/php-google-static-map",
+    "description": "A URL builder for Google Maps Static.",
     "keywords": [
-        ":vendor_name",
-        ":package_slug"
+        "Erth0",
+        "php-google-static-map"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/erth0/php-google-static-map",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Eluert Mukja",
+            "email": "hey@mukja.dev",
             "role": "Developer"
         }
     ],
@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src"
+            "Erth0\\PhpGoogleStaticMap\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Erth0\\PhpGoogleStaticMap\\Tests\\": "tests"
         }
     },
     "scripts": {
